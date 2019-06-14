@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}
+SignUp:Home
+{% endblock %}
+
+{% block content %}
+
+<h2 class="text-primary">You are successfully loged in.</h2>
+<a href="{% url 'logout_page' %}" class="btn btn-success">Logout</a>
+
+{% endblock content %}
